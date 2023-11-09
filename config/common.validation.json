@@ -1,0 +1,13 @@
+{
+    "mode": [ { "one_of": [ "optimized", "old_homie" ] } ],
+    "mqtt": { "nested_object": {
+        "uri": [ "string" ],
+        "username": [ "string" ],
+        "password": [ "string" ]
+    } },
+    "debug": [ "string" ],
+    "heartbeat": { "nested_object": {
+        "timeout": [ "positive_integer" ]
+    } },
+    "initTime": [ "positive_integer" ]
+}

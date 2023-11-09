@@ -1,0 +1,13 @@
+{
+    "mode": "{{MODE}}",
+    "mqtt": {
+        "uri": "{{MQTT_URI}}",
+        "username": "{{MQTT_USER}}",
+        "password": "{{MQTT_PASS}}"
+    },
+    "debug": "{{HEARTBEAT_DEBUG}}",
+    "heartbeat": {
+        "timeout": "{{HEARTBEAT_TIMEOUT}}"
+    },
+    "initTime": "{{INIT_TIME}}"
+}

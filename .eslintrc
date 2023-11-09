@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "webbylab"
+    ],
+    "plugins": [
+        "jest"
+    ],
+    "env": {
+        "jest/globals": true
+    },
+    "rules": {
+        "import/no-commonjs": 0,
+        "camelcase": 0
+    }
+}
